@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+tensorflow-macos = "*"
+tensorflow-metal = "*"
+image = "*"
+pillow = "*"
+ipykernel = "*"
+matplotlib = "*"
+pandas = "*"
+scipy = "*"
+sklearn = "*"
+
+[dev-packages]
+jupyter = "*"
+notebook = "*"
+
+[requires]
+python_version = "3.10"
